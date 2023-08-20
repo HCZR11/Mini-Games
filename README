@@ -1,0 +1,11 @@
+#1
+At the first game "Guess The Number" i make de function 'guess_the_number_(upper_bound)'this function upper_bound takes an argument ho represent superior limit the range of numbers the player has to guess.
+-I import random(which allows the generation of random numbers) after that i generate a random secret number between 1 and upper_bound using the random.randint(1, upper_bound) function.
+- i make a while True loop the player is invited to enter a number that they guess- if the entered number is equal to the secret number, a message is displayed that the player has guessed, indicating the secret number and the number of attempts
+
+#2 At the second game "Rock_Paper_Scissors" i create a function and inside i create a list 'choices'
+which contains the three possible options of the game: "rock", "paper" and "scissors".
+  // Converțiți opțiunea la litere mici folosind lower() pentru a evita diferențele de majusculă/minusculă.
+   // I used the random.choice() function to randomly choose one of the options in the choices list for the computer.(
+and to display the options I used the print() function)
+   // I also used the while loop that incorporates the game's function of choosing the option chosen by the user
